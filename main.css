@@ -1515,15 +1515,15 @@
 
 :root .nowPlayingColumn-1eCBCN {
   position: fixed;
-  top: 280px;
+  top: 250px;
   bottom: 120px;
   right: 60px;
-  width: 320px;
+  width: 240px;
   min-width: unset;
   background-color: var(--background-primary);
 }
 :root .nowPlayingColumn-1eCBCN::before {
-  content: "Friends activity";
+  content: "Friends Activity";
   position: absolute;
   top: -60px;
   z-index: 1;
@@ -1857,14 +1857,13 @@
 :root .total-members.counts {
   background-color: var(--background-primary);
 }
-
 @media (min-width: 1350px) {
-  .chatContent-3KubbW + :last-child {
+  .chatContent-3KubbW + :nth-child(2) {
     position: fixed;
-    top: 280px;
+    top: 250px;
     bottom: 120px;
     right: 60px;
-    width: 320px;
+    width: 12.5%;
     height: unset;
   }
 
@@ -1873,13 +1872,13 @@
   }
 
   .container-1eFtFS::after {
-    content: "Stay comfy ❤";
+    content: "(◠‿◠✿)";
     position: fixed;
-    top: 220px;
+    top: 190px;
     bottom: 85px;
     right: 60px;
     z-index: -2;
-    width: 320px;
+    width: 240px;
     background-color: var(--background-primary);
     text-align: center;
     display: flex;
@@ -1894,23 +1893,23 @@
   .container-1eFtFS::before {
     content: "";
     position: fixed;
-    top: 220px;
-    bottom: 85px;
-    right: 70px;
+    top: 320px;
+    bottom: 90px;
+    right: 60px;
     z-index: -1;
-    width: 300px;
+    width: 235px;
     border-radius: var(--border-radius);
-    background: var(--jumping-gif) bottom/40% no-repeat;
+    background: var(--jumping-gif) bottom/150px no-repeat;
   }
 
   .guilds-2JjMmN + :nth-child(2) {
-    margin-right: 450px;
+    margin-right: 390px;
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
   }
 
   .panels-3wFtMD > .container-YkUktl {
     position: fixed;
-    width: 305px;
+    width: 223px;
     height: 50px;
     bottom: 28px;
     right: 60px;
@@ -1922,7 +1921,7 @@
     overflow: visible;
   }
 
-  .layers-OrUESM > :nth-child(2) {
+    .layers-OrUESM > :nth-child(2) {
     margin-right: 450px;
   }
 }
