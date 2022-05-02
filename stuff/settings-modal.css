@@ -37,7 +37,6 @@
 	left: 0 !important;
 	background: var(--settingsmodalbackground) !important;
 	border-radius: var(--radius-theme) !important;
-	box-shadow: var(--elevation-high) !important;
 	width: var(--settingsmodalwidth) !important;
 	height: var(--settingsmodalheight) !important;
 	margin: auto !important;
@@ -140,7 +139,7 @@
     transform: scale(0.9);
 }
 #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V > div > div > div > svg, .closeButton-PCZcma > svg {
-    background: #da5169;
+    background: #c5536c;
     border-radius: 50%;
 }
 #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V > div > div > div > svg > path, .closeButton-PCZcma > svg > path {
@@ -168,7 +167,7 @@
     border-top-right-radius: var(--radius-theme);
     min-width: 1034px;
     border: var(--the-borders);
-    box-shadow: 0 0px 16px rgba(0,0,0,0.16);
+    box-shadow: 0 0px 16px rgb(0,0,0,0.16);
     -webkit-app-region: drag;
 }
 .closeWrapper-9ScmSq {
