@@ -1368,7 +1368,7 @@
   background-size: 100%;
 }
 :root .app-2CXKsg::before {
-  top: 65px;
+  top: 15px;
   right: 75px;
   width: 200px;
   height: 120px;
@@ -1608,8 +1608,8 @@
 @media (min-width: 1350px) {
   .chatContent-3KubbW + :nth-child(2) {
     position: fixed;
-    top: 250px;
-    bottom: 120px;
+    top: 200px;
+    bottom: 150px;
     right: 60px;
     width: 12.5%;
     height: unset;
@@ -1622,8 +1622,8 @@
   .container-1eFtFS::after {
     content: "(◠‿◠✿)";
     position: fixed;
-    top: 190px;
-    bottom: 85px;
+    top: 140px;
+    bottom: 115px;
     right: 60px;
     z-index: -2;
     width: 240px;
@@ -1641,8 +1641,8 @@
   .container-1eFtFS::before {
     content: "";
     position: fixed;
-    top: 320px;
-    bottom: 90px;
+    top: 270px;
+    bottom: 120px;
     right: 60px;
     z-index: -1;
     width: 235px;
@@ -1659,7 +1659,7 @@
     position: fixed;
     width: 223px;
     height: 50px;
-    bottom: 28px;
+    bottom: 40px;
     right: 60px;
     background-color: var(--background-primary);
     border-radius: var(--border-radius);
