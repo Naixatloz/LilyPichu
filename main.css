@@ -1260,8 +1260,8 @@
 
 :root .nowPlayingColumn-1eCBCN {
   position: fixed;
-  top: 250px;
-  bottom: 120px;
+  top: 200px;
+  bottom: 150px;
   right: 60px;
   width: 240px;
   min-width: unset;
